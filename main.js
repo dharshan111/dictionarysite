@@ -35,10 +35,6 @@ btn.addEventListener("click", () => {
         <p class="word-meaning">
           ${definition.definition}
         </p>
-
-        <p class="word-example">
-          ${definition.example || "No example available."}
-        </p>
       `;
 
       // Set up pronunciation sound if available
